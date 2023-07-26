@@ -17,12 +17,10 @@ cd contacts-manager
 **2. Copy `.env.example` to `.env`**
 
 ```sh
-cp .env.example .env
+copy .env.example .env
 ```
 
-**3. Create database and update the `.env` file**
-
-**4. Install dependencies**
+**3. Install dependencies**
 
 ```sh
 composer install
@@ -32,24 +30,28 @@ composer install
 npm install
 ```
 
-**5. Generate application key**
+**4. Generate application key**
 
 ```sh
 php artisan key:generate
 ```
 
-**6. Run migrations and seed database**
+**5. Run migrations and seed database**
 
 ```sh
 php artisan migrate
 ```
 
-**7. Seed database by importing the `db.sql` file**
+**6. Seed database by importing the `db.sql` file**
 
-**8. Run the project**
+**7. Run the project**
 
 ```sh
 php artisan serve
+```
+
+```sh
+npm run dev
 ```
 
 Application : http://localhost:8000
