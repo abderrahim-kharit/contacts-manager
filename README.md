@@ -38,13 +38,15 @@ npm install
 php artisan key:generate
 ```
 
-**5. Run migrations and seed database**
+**6. Run migrations and seed database**
 
 ```sh
-php artisan migrate:fresh --seed
+php artisan migrate
 ```
 
-**6. Run the project**
+**7. Seed database by importing the `db.sql` file**
+
+**8. Run the project**
 
 ```sh
 php artisan serve
